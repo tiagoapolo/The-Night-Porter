@@ -22,6 +22,7 @@
 		88BB3F541EBAD0E100E141BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BB3F571EBAD0E100E141BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88BB3F591EBAD0E100E141BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88BB3F621EBAD15E00E141BE /* The Night Porter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "The Night Porter.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 			children = (
 				88BB3F4C1EBAD0E100E141BE /* The Night Porter */,
 				88BB3F4B1EBAD0E100E141BE /* Products */,
+				88BB3F5F1EBAD15E00E141BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +56,7 @@
 		88BB3F4C1EBAD0E100E141BE /* The Night Porter */ = {
 			isa = PBXGroup;
 			children = (
+				88BB3F621EBAD15E00E141BE /* The Night Porter.entitlements */,
 				88BB3F4D1EBAD0E100E141BE /* AppDelegate.swift */,
 				88BB3F4F1EBAD0E100E141BE /* ViewController.swift */,
 				88BB3F511EBAD0E100E141BE /* Main.storyboard */,
@@ -62,6 +65,13 @@
 				88BB3F591EBAD0E100E141BE /* Info.plist */,
 			);
 			path = "The Night Porter";
+			sourceTree = "<group>";
+		};
+		88BB3F5F1EBAD15E00E141BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +108,17 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = V3APQA4ZBM;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.WAC = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
